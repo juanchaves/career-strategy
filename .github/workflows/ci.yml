@@ -19,5 +19,6 @@ jobs:
           python-version-file: "pyproject.toml"
       - name: Install the project
         run: uv sync --all-extras --dev
-      - name: Run tests
-        run: uv run pytest tests
+      # TODO: Turn on when tests exist
+      # - name: Run tests
+      #   run: uv run pytest tests
